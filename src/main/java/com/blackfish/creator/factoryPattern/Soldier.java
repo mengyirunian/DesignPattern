@@ -1,4 +1,4 @@
-package com.blackfish.creator;
+package com.blackfish.creator.factoryPattern;
 
 public interface Soldier {
 
