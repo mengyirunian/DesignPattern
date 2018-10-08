@@ -1,4 +1,4 @@
-package com.blackfish.creator.singleton;
+package com.blackfish.creator.singletonPattern;
 
 public class SafeLazySingleton {
 

@@ -1,4 +1,4 @@
-package com.blackfish.creator.singleton;
+package com.blackfish.creator.singletonPattern;
 
 public class Start {
 
@@ -168,7 +168,7 @@ public class Start {
          * 好的吧，以上确实都是网上找的资料。
          * 那么我们来看看这里的做法吧。
          * 我们可以看到，这里在调用getInstance()的时候就没有多次new对象
-         * 而是直接Holder.singleton。
+         * 而是直接Holder.singletonPattern。
          * 这样一来就将对象的创建及线程问题交由这个静态内部类来实现了。
          * 根据上面所述的情况，只有在执行这一个语句的时候，才会去加载这个静态内部类
          * 才会去创建这个对象。而JVM在多线程环境中就能保证只有一条线程才会去加载初始化这个类。

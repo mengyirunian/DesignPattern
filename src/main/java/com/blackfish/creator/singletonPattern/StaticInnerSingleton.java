@@ -1,4 +1,4 @@
-package com.blackfish.creator.singleton;
+package com.blackfish.creator.singletonPattern;
 
 public class StaticInnerSingleton {
 
@@ -7,7 +7,7 @@ public class StaticInnerSingleton {
     }
 
     private StaticInnerSingleton() {
-        System.out.println("I am a static inner singleton");
+        System.out.println("I am a static inner singletonPattern");
     }
 
     public static StaticInnerSingleton getInstance() {
